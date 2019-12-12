@@ -1,0 +1,163 @@
+body{
+	font-family:Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	color:grey;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container{
+	width:940px;
+	margin: 0 auto;
+}
+.information{
+    background: url(../img/fon.png) no-repeat  top/cover;
+}
+div{
+	box-sizing: border-box;
+}
+.phone{
+	width:300px;
+	height:340px;
+}
+.logo{
+	padding-left: 30px;
+	width:200px;
+	height:60px;
+}
+.icon{
+	width:200px;
+	height:200px;
+}
+.basket{
+	width:330px;
+	height:240px;
+}
+ul,li{
+	display: block;
+}
+.menu{
+	width: 500px;
+	text-align: center;
+	margin-right: 40px;
+}
+.menu_item{
+	display: inline;
+	margin-right: 10px;
+	font-size: 25px;
+	font-weight: 500;
+}
+.menu_item a{
+	color: grey;
+	text-decoration: none;
+} 
+.main_menu{
+	display: flex;
+	justify-content: space-between;
+}
+.main_logo{
+	width: 240px;
+}
+.row{
+	margin-top:30px;
+}
+.information{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+.image_phone{
+	width: 330px;
+	height:370px;
+	margin-left:50px;
+	padding-top: 10px;
+}
+.information_ipsum{
+	width: 490px;
+    text-align: left;
+    padding-top:20px;
+}
+.information_ipsum h2{
+	font-size: 40px;
+	font-weight: 500;
+}
+.information_ipsum p{
+	display: block;
+	width: 290px;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1.7;
+
+}
+.button{
+	display: block;
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	background-color:#5094f2;
+	width:170px;
+	height:30px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+}
+.view_item{
+	display:inline-block;
+	width: 305px;
+	text-align: center;
+	padding:0 10px;
+	line-height: 1.7;
+}
+.view_item h3{
+	color:#52b6f3;
+	font-size: 20px;
+}
+.view_item p{
+	font-size:18px;
+}
+.icon_list{
+	margin-top:30px;
+}
+.shopping{
+	display:inline-block;
+	justify-content:space-between;
+	margin-top:30px;
+}
+.shopping_cart{
+	float: left;
+	margin-left: 30px;
+	width: 340px;
+	text-align: left;
+}
+.shopping_cart h2{
+	font-size: 35px;
+	font-weight: 550;
+}
+.shopping_information h2{
+	font-size: 30px;
+	font-weight: 500;
+}
+.shopping_information p{
+	font-size: 18px;
+	line-height: 1.7;
+}
+.shopping_information{
+	float: right;
+	width: 450px;
+	text-align: left;
+	margin-left:60px; 
+	font-size: 15px;
+	padding-top: 20px;
+	line-height: 1.7;
+}
+.root{
+	margin-top: 50px;
+	margin-bottom: 60px;
+	text-align: center;
+	border-top:1px solid #c3c3c5;
+	padding-top: 20px;
+}
