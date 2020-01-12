@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Example</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <!--Slider -->
+  <div class="slidershow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1/3</div>
+      <img src="img/1.jpg">
+      <div class="text">Text</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2/3</div>
+      <img src="img/2.jpg">
+      <div class="text">Text</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3/3</div>
+      <img src="img/3.jpg">
+      <div class="text">Text</div>
+    </div>
+    <a class = "prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class = "next" onclick="plusSlides(1)">&#10095</a>
+  </div>
+  <br>
+
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <!---->
+  <label><input type="checkbox" id="one" onchange="check()">Горе чек</label>
+  <input type="radio" name="r1">Ноль
+  <input type="radio" name="r1">Один
+  <input type="radio" name="r1">Два
+  <button onclick="test()">Проверка сверка</button>
+  
+
+  <input type="range" min="0" max="100" step="2" oninput="range1()" id="run">
+  <p id="number"></p>
+
+  <select id="mySelect" onchange="fruit()">
+    <option>Яблока</option>
+    <option>Груша</option>
+    <option>Апельсин</option>
+    <option>Мандарин</option> 	
+  </select>
+  <!--CSS генератор-->
+  <div class="block1">
+    <p>Верхний левый угол:
+     <input type="range" min="0" max="100" value="0"  oninput="generator()" id="rtl">
+     <input type="text" id="ttl" value="0">
+    </p>
+    <p>Верхний правый угол:
+     <input type="range" min="0" max="100" value="0"  oninput="generator()" id="rtr">
+     <input type="text" id="ttr" value="0">
+    </p>
+    <p>Нижний левый угол:
+     <input type="range" min="0" max="100" value="0"  oninput="generator()" id="rbr">
+     <input type="text" id="tbr" value="0">
+    </p>
+    <p>Нижний правый угол:
+     <input type="range" min="0" max="100" value="0"  oninput="generator()" id="rbl">
+     <input type="text" id="tbl" value="0">
+    </p>
+  </div>
+  <div id="block"></div>
+  <!--Модальное окно-->
+  <button id="myBtn">Открытие</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Содержание модального окна</p>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
