@@ -1,0 +1,31 @@
+.navigatorBar{
+  width: 100%;
+  background-color:#88ACDB;
+  padding: 24px 16px;
+}
+#table{
+  width: 100%;
+  background-color:#977FB9;
+  padding: 24px 16px;
+}
+#addButton{
+  text-transform: uppercase;
+  line-height: 24px;
+  margin-left: 10px;
+  height: 35px;
+  width: 35px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+ul li{
+  list-style: none;
+}
+ul#list{
+  padding:0;
+}
+#searchInput{
+  padding: 10px;
+}
